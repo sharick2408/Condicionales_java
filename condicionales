@@ -1,0 +1,30 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
+ */
+
+package com.mycompany.condicionales_sharick;
+
+/**
+ *
+ * @author Estudiantes
+ */
+public class Condicionales_sharick {
+
+    public static void main(String[] args) {
+        String canciones = "rock";
+        
+    if (canciones == "Jazz"){
+        System.out.println("relajarse");
+        System.out.println("tomar cafe");
+        System.out.println("dormir");
+    } else if (canciones == "rock"){
+        System.out.println("agirtar cabeza");
+        System.out.println("subir volumen");
+        System.out.println("tener dolor de cabeza");
+    }else{
+        System.out.println("es bachata");
+    }
+    }
+}
+
